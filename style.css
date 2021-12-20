@@ -777,6 +777,7 @@ h4 {
 
 .tc-white {
     color: white!important;
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -824,6 +825,15 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+.form-group {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 5px;
 }
 
 @media (max-width: 1024px) {
